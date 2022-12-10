@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "teks";
+  src: url("FFF_Tusj.ttf");
+}
+
+* {
+  background-color: #d1a2f0;
+}
+
+header h1 {
+  font-family: "teks";
+  font-size: 80px;
+  margin: 40px;
+  border-radius: 20px;
+  text-align: center;
+  text-shadow: 10px 10px 0px white;
+  box-shadow: 0 0 8px 2px black;
+  height: 300px;
+  padding-top: 30px;
+  transition: .4s;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 40px;
+  display: inline-block;
+  position: relative;
+  bottom: 140px;
+  left: 90px;
+  padding-left: 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Monospace;
+  font-weight: bold;
+  box-shadow: 1px 3px 3px 0 black , -1px -3px 3px 0 black;
+  padding: 15px;
+  border-radius: 15px;
+  transition: .4s;
+}
+
+header h1 , 
+nav ul li ,
+nav ul li a ,
+.container ,
+.href img ,
+.href ,
+.fesbuk ,
+.gitub ,
+.wangsaf ,
+.content ,
+.content p ,
+footer ,
+footer marquee
+{
+  background-color: #ebc3f0;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+header:hover h1 {
+  color: red;
+}
+
+.container {
+  width: 750px;
+  margin: auto;
+  height: 60vh;
+  border-radius: 15px;
+  box-shadow: 2px 2px 9px 0 black , 0 0 1px 1px black;
+}
+
+.container .gambar {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 60px 0 0 40%;  
+  box-shadow: 0 0 9px 0px black;
+  transition: .4s;
+}
+
+.href .gambar1 {
+  width: 80px;
+  height: 80px;
+  margin-top: 120px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 120px;
+  margin-right: 5px;
+  border-radius: 50px;
+  
+}
+
+.href {
+  margin: 190px 40px 0 40px;
+  box-shadow: 1px 1px 7px 0 black , 0px 0px 1px 0 black;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.href a {
+  text-decoration: none;
+  width: 110px;
+  height: 80px;
+  background-color: #ebc3f0;
+  display: inline-block;
+  position: relative;
+  top: 30%;
+  margin-left: 40px;
+  box-shadow: 2px 2px 5px 1px black;
+  padding: 26px;
+  transition: .4s;
+}
+
+span {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Sans-Serif;
+  top: 90px;
+}
+
+.fesbuk {
+  margin-left: 66px;
+}
+
+.gitub ,
+.wangsaf {
+  margin-left: 110px;
+}
+
+
+.href a:hover {
+  background-color: white;
+  transform: rotate(360deg);
+}
+
+.container:hover .gambar {
+  transform: scale(3) rotate(360deg);
+}
+
+.content {
+  width: 850px;
+  height:  480vh;
+  margin: 100px auto;
+  box-shadow: 0 0 8px 2px black;
+  border-radius: 40px;
+}
+
+.content p {
+  font-size: 40px;
+  color: white;
+  padding: 80px;
+  font-family: Sans-Serif;
+  font-weight: bold;
+  box-shadow: 0 0 7px 1px black;
+  border: 1px solid black;
+  background-color: black;
+  transition: .4s;
+}
+
+.content:hover p {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.content .kosong {
+  height: 500px;
+  background: url("248c94cda89e4dcd8396cb67806dac01.png");
+  transition: .4s;
+}
+
+.content:hover .kosong {
+  height: 500px;
+  background: url("91d6a92b3ccd5026a8e40b2c6671917e.png");
+}
+
+footer {
+  box-shadow: 2px 2px 6px 1px black;
+  margin: 50px 15px;
+  border-radius: 10px;
+}
+
+footer marquee {
+  font-size: 60px;
+  padding: 50px;
+  color: white;
+  font-family: Tahoma;
+  font-weight: bold;
+  transition: .4s;
+}
+
+footer:hover marquee {
+  font-weight: bold;
+  color: black;
+}
+
